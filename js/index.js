@@ -1,6 +1,6 @@
 var Artists =  
 ["Justin Bieber",
- "Konye West",
+ "Kanye West",
   "Beyonce",
    "Rihanna",
    "Selena Gomez",
@@ -34,4 +34,5 @@ function pickArtists(){
 	//Based on the length of the Artists array
 	var artistsNumber2 = Math.floor(Math.random()*Artists.length);
 	document.getElementById('mixArtists').innerHTML = "<h1>"+Artists[artistsNumber]+" And "+Artists[artistsNumber2]+"</h1>";
+	
 }
