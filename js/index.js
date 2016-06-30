@@ -33,6 +33,6 @@ function pickArtists(){
 	// Sets avariablle called toppingNumber2 that will have a random Whole Number
 	//Based on the length of the Artists array
 	var artistsNumber2 = Math.floor(Math.random()*Artists.length);
-	document.getElementById('mixArtists').innerHTML = "<h1>"+Artists[artistsNumber]+" And "+Artists[artistsNumber2]+"</h1>";
+	document.getElementById('mixArtists').innerHTML = "<h1>"+Artists[artistsNumber]+" and "+Artists[artistsNumber2]+"</h1>";
 	
 }
